@@ -1,0 +1,30 @@
+{
+  "name": "gulp-filter-each",
+  "version": "1.0.0",
+  "description": "Filter Gulp files from the stream based on their content.",
+  "main": "index.js",
+  "author": "Steve Holgado",
+  "license": "MIT",
+  "homepage": "https://github.com/steveholgado/gulp-filter-each",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steveholgado/gulp-filter-each"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "filter",
+    "include",
+    "exclude",
+    "ignore"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3"
+  }
+}
