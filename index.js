@@ -39,7 +39,7 @@ module.exports = function (fn) {
 		var content = file.contents.toString('utf8')
 
 		// Call supplied function and store result
-		var result = fn(content, file, done)
+		var result = fn(content, file.path, done)
 
 		// If not async mode, perform filter logic based on supplied function result
 		if (!async) {

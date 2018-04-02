@@ -1,7 +1,7 @@
 {
   "name": "gulp-filter-each",
   "version": "1.0.0",
-  "description": "Filter Gulp files from the stream based on their content.",
+  "description": "Filter files from a Gulp stream based on their content or filepath.",
   "main": "index.js",
   "author": "Steve Holgado",
   "license": "MIT",
