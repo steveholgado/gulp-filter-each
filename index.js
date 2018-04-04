@@ -27,6 +27,11 @@ module.exports = function (fn) {
 	var async = fn.length > 2
 
 	return through.obj(function (file, enc, callback) {
+		// Check if file contents are a buffer
+		if (!file.isBuffer()) {
+			return callback()
+		}
+
 		var self = this
 
 		// Callback to use for async mode
