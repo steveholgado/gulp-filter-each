@@ -22,7 +22,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "tap -Rspec test.js"
+    "test": "tap --reporter spec test.js",
+    "prepublish": "npm test"
   },
   "devDependencies": {
     "tap": "^11.1.3",
