@@ -8,7 +8,7 @@ Filter files from a Gulp stream based on their content or filepath.
 ## Install
 
 ```
-npm install --save-dev gulp-filter-each
+npm install gulp-filter-each
 ```
 
 ## Usage
