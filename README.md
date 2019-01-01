@@ -1,5 +1,8 @@
 # gulp-filter-each
 
+[![npm version](https://badge.fury.io/js/gulp-filter-each.svg)](https://badge.fury.io/js/gulp-filter-each)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Filter files from a Gulp stream based on their content or filepath.
 
 ## Install
